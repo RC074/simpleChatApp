@@ -34,7 +34,8 @@ class App extends React.Component {
   };
 
   handleInputChange = (e) => {
-    if (e.key === "Enter") {
+    console.log(e.keyCode);
+    if (e.nativeEvent.keyCode === 13) {
       this.addMsgHandler();
     } else {
       this.setState({ msgToSend: e.target.value });
@@ -118,6 +119,7 @@ class App extends React.Component {
                 type="text"
                 className="message-input"
                 placeholder="Type message..."
+                onKeyDown={(e) => this.handleInputChange(e)}
                 onChange={(e) => this.handleInputChange(e)}
                 value={this.state.msgToSend}
               ></textarea>

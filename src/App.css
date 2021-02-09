@@ -6,6 +6,7 @@
 html,
 body {
   height: 100%;
+  zoom: 120%;
 }
 body {
   background: linear-gradient(135deg, #044f48, #2a7561);
@@ -33,6 +34,7 @@ body {
 
 /*-------------------- Chat --------------------*/
 .chat {
+  zoom: 120%;
   position: absolute;
   top: 50%;
   left: 50%;
