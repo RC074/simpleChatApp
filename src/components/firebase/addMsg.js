@@ -11,7 +11,7 @@ const addMsg = async (user, content) => {
     .collection("chat")
     .orderBy("timestamp", "asc")
     .get();
-  if (snapShot.docs.length >= 10) {
+  if (snapShot.docs.length >= 50) {
     await firestore.collection("chat").doc(snapShot.docs[0].id).delete();
   }
 };

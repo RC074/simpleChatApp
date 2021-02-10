@@ -57,39 +57,6 @@ class App extends React.Component {
             onUserLogin={(userData) => this.setState({ user: userData })}
           />
         ) : (
-          // <div className="container">
-          //   <ul className="MsgWrapper">
-          //     {this.state.messages.length === 0
-          //       ? "No messages"
-          //       : this.state.messages.map((msg, index) => (
-          //           <li
-          //             key={index}
-          //             className={
-          //               msg.user === this.state.user ? "right" : "left"
-          //             }
-          //           >
-          //             {msg.user === this.state.user ? (
-          //               <div className="MsgContainer">
-          //                 <img src={msg.user} alt="avatar"></img>
-          //                 <div className="Msg">{msg.content}</div>
-          //               </div>
-          //             ) : (
-          //               <div className="MsgContainer">
-          //                 <img src={msg.user} alt="avatar"></img>
-          //                 <div className="Msg">{msg.content}</div>
-          //               </div>
-          //             )}
-          //           </li>
-          //         ))}
-          //   </ul>
-          //   <div className="inputContainer">
-          //     <input
-          //       onChange={(e) => this.setState({ msgToSend: e.target.value })}
-          //       value={this.state.msgToSend}
-          //     ></input>
-          //     <button onClick={this.addMsgHandler}>Click</button>
-          //   </div>
-          // </div>
           <div className="chat">
             <div className="chat-title">
               <h1>F3</h1>
@@ -133,20 +100,6 @@ class App extends React.Component {
             </div>
           </div>
         )}
-        {/* <div className="area">
-          <ul className="circles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div> */}
       </div>
     );
   }
