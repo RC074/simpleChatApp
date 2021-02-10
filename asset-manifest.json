@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/simpleChatApp/static/css/main.dcf124aa.chunk.css",
-    "main.js": "/simpleChatApp/static/js/main.40fb2e8e.chunk.js",
-    "main.js.map": "/simpleChatApp/static/js/main.40fb2e8e.chunk.js.map",
+    "main.js": "/simpleChatApp/static/js/main.eadc82ec.chunk.js",
+    "main.js.map": "/simpleChatApp/static/js/main.eadc82ec.chunk.js.map",
     "runtime-main.js": "/simpleChatApp/static/js/runtime-main.2aed9b5a.js",
     "runtime-main.js.map": "/simpleChatApp/static/js/runtime-main.2aed9b5a.js.map",
     "static/js/2.83acc67e.chunk.js": "/simpleChatApp/static/js/2.83acc67e.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.2aed9b5a.js",
     "static/js/2.83acc67e.chunk.js",
     "static/css/main.dcf124aa.chunk.css",
-    "static/js/main.40fb2e8e.chunk.js"
+    "static/js/main.eadc82ec.chunk.js"
   ]
 }
